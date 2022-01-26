@@ -38,10 +38,9 @@ def project_builder():
     shutil.copy("/usr/share/nginx/html/html5_boilerplate/site.webmanifest", folder)
 
     shutil.copytree("/usr/share/nginx/html/html5_boilerplate/css", f"{folder}/css")
-    shutil.copytree("/usr/share/nginx/html/html5_boilerplate/doc", f"{folder}/doc")
-    shutil.copytree("/usr/share/nginx/html/html5_boilerplate/img", f"{folder}/support_files/img")
+    shutil.copytree("/usr/share/nginx/html/support_services/template_python_files", f"{folder}/support_files")
     shutil.copytree("/usr/share/nginx/html/html5_boilerplate/js", f"{folder}/support_files/js")
-    shutil.copytree("/usr/share/nginx/html/partials", f"{folder}/partials")
+    shutil.copytree("/usr/share/nginx/html/support_services/partials", f"{folder}/partials")
 
 
 if __name__ == "__main__":
