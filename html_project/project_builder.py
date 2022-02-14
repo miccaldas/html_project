@@ -40,6 +40,7 @@ def project_builder():
     shutil.copy("/usr/share/nginx/html/html5_boilerplate/package-lock.json", folder)
     shutil.copy("/usr/share/nginx/html/html5_boilerplate/robots.txt", folder)
     shutil.copy("/usr/share/nginx/html/html5_boilerplate/site.webmanifest", folder)
+    shutil.copy("/usr/share/nginx/html/html5_boilerplate/WARNINGl_VERY_IMPORTANT_READ_THISl.txt", folder)
 
     shutil.copytree("/usr/share/nginx/html/html5_boilerplate/css", f"{folder}/css")
     shutil.copytree("/usr/share/nginx/html/support_services/templates", f"{folder}/support_files/templates")
