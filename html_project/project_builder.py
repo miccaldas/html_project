@@ -1,5 +1,7 @@
-"""Creates a HTML project folder and populates it with boilerplate
-   files and folders."""
+"""
+Creates a HTML project folder and populates it with boilerplate
+files and folders.
+"""
 import os
 import shutil
 import subprocess
